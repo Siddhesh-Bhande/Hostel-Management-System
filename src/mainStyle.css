@@ -1,0 +1,275 @@
+body{
+    background-color: #fefbf7 !important;
+    margin-bottom: 32px;
+}
+.hostelsOuterDiv {
+    width: 800px;
+    height: 400px;
+    border-radius: 12px;
+    margin: auto;
+    box-shadow: 3px 4px 7px 3px #e6e6e6;
+    padding: 24px 32px 0px 32px;
+       margin-top: 32px;
+       background: #ffffff;
+}
+
+.hotelLocation {
+    color: #1E425A;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: italic;
+    /* text-align: right; */
+}
+
+.HotelsDetails div {
+    /* border-right: 1px solid #e6e6e6; */
+    display: inline-table;
+    height: 80px;
+    width: 28%;
+    margin-top: 24px;
+    color: #1e425a;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.HotelsDetails {
+    text-align: center;
+}
+.HostelName{
+    font-size: 44px;
+    font-weight: 600;
+    color: #1e425a;
+    border-bottom: 1px solid #ff8a37;
+    line-height: 44px;
+    padding-bottom: 12px;
+}
+.bookHostelBtn{
+    background: #ff520f;
+    color: #ffffff;
+    border-radius: 0px 0px 12px 0px;
+    font-size: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: 600;
+    border: 1px solid orangered;
+    float: right;
+    margin-right: -32px;
+    margin-top: -33px;
+}
+.bookHostelBtn:hover{
+    color: #ff7d00;
+    background: #ffffff;
+    border-left: 16px solid #ea940e;
+}
+.HotelsDetails span{
+    display: block;
+}
+.HotelsDetails span:nth-child(even){
+    color: #081442;
+    font-size: 18px;
+    font-weight: 500;
+}
+.HotelsDetails div:nth-child(2),.HotelsDetails div:nth-child(5){
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+}
+.MainTitle h1 {
+    font-size: 64px;
+    text-align: center;
+    margin-top: 16px;
+    font-family: times;
+    color: #ff2300;
+    display: inline-block;
+}
+
+.HMS-nav-bar {
+    background: orange;
+    /* height: 40px; */
+    border-bottom: 2px solid red;
+    /* border-top: 2px solid red; */
+    text-align: center;
+}
+
+a.hms-nav-links {
+    font-size: 26px;
+    background: #ff6a00;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+    padding: 7px 16px;
+    margin: 0px 8px;
+    font-family: helvetic;
+}
+a.hms-nav-links:hover,a.hms-nav-links.active{
+    background: #ffffff;
+    color: #ff6a00;
+    border: 2px solid #ff6a00;
+    border-bottom: none;
+}
+.hms-header-section {
+    margin-bottom: 32px;
+}
+
+div#registrationApp , .Greivance-form{
+    background-color: #ffffff;
+    width: 50%;
+    border: 1px solid #ff6a00;
+    margin: auto;
+    padding: 40px 5%;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px #ff6a00;
+}
+.hms-userprofile {
+   
+    font-size: 30px;
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    color: #1E425A;
+}
+.UserLoginLogout{
+    background: none;
+    border: none;
+}
+.UserLoginLogout img{
+    height: 50px;
+    width: 50px;
+}
+.issuesClass{
+    text-align: right;
+}
+#GreivanceApp{
+   width: 90%;
+   margin: auto;
+}
+#GreivanceApp button{
+    margin-right: 16px;
+}
+span.g_subtitle {
+    color: #081442;
+    font-size: 22px;
+}
+
+span.gvalue {
+    font-size: 21px;
+    color: #1E425A;
+}
+
+.gstatus span.gvalue {
+    color: green;
+    font-weight: 500;
+}
+
+.gdesc span.gvalue {border: 1px dotted;display: block;min-height: 100px;padding: 4px 8px;border-radius: 10px;margin-bottom: 8px;}
+
+.gres span.gvalue, .gres input {
+    border: 1px dotted;
+    display: block;
+    min-height: 100px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+span.g_subtitle {}
+
+.gstatus {
+    display: inline-block;
+}
+
+.gcategory {
+    display: inline-block;
+    width: 50%;
+}
+
+.hms-userComplaints .hostelsOuterDiv {
+    height: auto;
+    padding-bottom: 24px;
+}
+
+.gtitle {
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 8px;
+}
+div#hmsLoginLinks {
+    margin: 100px auto;
+    width: 40%;
+    text-align: center;
+}
+div#hmsLoginLinks a {
+    display: block;
+    width: 50%;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 24px auto;
+    box-shadow: 0px 1px 4px 2px #e6e6e6;
+    border-bottom: 2px solid #ff6a00;
+}
+.hostelCost {
+    display: inline-block;
+    font-size: 24px;
+    color: #1E425A;
+    margin-top: 30px;
+}
+
+.HMSbutton {
+    display: initial;
+}
+.studentRequests .hostelsOuterDiv{
+    height: auto;
+    padding-bottom: 24px;
+    font-size: 18px;
+}
+.studentRequests .bedsVacant{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.studentRequests .bedsVacant span{
+    display: block;
+}
+.studentRequests .bedsVacant:nth-child(2){
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+.studentRequests .bedsVacant span:nth-child(even){
+    color: #081442;
+    font-weight: 600;
+}
+.studentRequests .bedsVacant span:nth-child(odd){
+    color: #1e425a;
+}
+.studentRequests form{
+    text-align: center;
+}
+.gres input{
+    width: 100%;   
+}
+.sortOptions h3{
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+.sortOptions{
+    margin: auto;
+    width: 1100px;
+    text-align: center;
+}
+.sortOptions .btn{
+    margin: 0px 8px;
+    border-radius: 18px;
+}
+span.hhIcon img {
+    height: 80px;
+    margin-top: -16px;
+    margin-right: 12px;
+    margin-bottom: 16px;
+}
+.span.hhIcon{
+    vertical-align: middle;
+}
+.MainTitle {
+    text-align: center;
+}
