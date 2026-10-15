@@ -1,0 +1,13 @@
+# Operating System
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+
+# Environment & local credentials
+*.local
+.env
